@@ -1,42 +1,72 @@
-# sv
+# [TerpCourse](https://terpcourse.vercel.app/)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+TerpCourse is a course search tool built for students at UMD that accepts compact multi‑query strings to help students narrow down their search to find the courses. built to help students plan their schedules and make informed decisions about their course and section selections.
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## File Structure
 
-```sh
-# create a new project
-npx sv create my-app
+```
+terpcourse/
+├── src/
+│   ├── lib/
+│   │   ├── components/     # Reusable Svelte components and UI elements
+│   │   ├── utils/          # Utility functions and helpers
+│   │   └── types/          # TypeScript type definitions
+│   ├── routes/             # SvelteKit pages and API routes
+│   ├── app.html            # HTML template
+│   ├── app.css             # Global styles
+│   └── theme.css           # Theme configuration and color tokens
+├── static/                 # Static assets (images, fonts, etc.)
+├── package.json            # Dependencies and scripts
+├── svelte.config.js        # SvelteKit configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.js          # Vite build configuration
 ```
 
-To recreate this project with the same configuration:
 
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add tailwindcss="plugins:none" prettier eslint devtools-json --install npm my-project
-```
+## Getting Started
 
-## Developing
+### Prerequisites
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **[Node.js](https://nodejs.org/)** — Required runtime for the dev server and build tools
+- **[npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)** —  Package manager for installing dependencies (comes with Node.js)
 
-```sh
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+The app will be available at [`http://localhost:5173`](http://localhost:5173)
 
-To create a production version of your app:
 
-```sh
-npm run build
-```
+## Theme colors usage
 
-You can preview the production build with `npm run preview`.
+Color system defined in `src/theme.css` that automatically adapts between light and dark modes. All colors are mapped to CSS variables and exposed as Tailwind utility classes. *Never use hardcoded colors outside of `theme.css`. Always only use Tailwind custom colors.*
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+**Available Custom Colors:**
+
+| Color Type    | Description                                   | Tailwind Usage                                  |
+| ------------- | --------------------------------------------- | ----------------------------------------------- |
+| `background`  | Main page background and primary text color   | `bg-background`, `text-foreground`              |
+| `card`        | Card/panel backgrounds and their text         | `bg-card`, `text-card-foreground`               |
+| `popover`     | Popover/dropdown backgrounds and text         | `bg-popover`, `text-popover-foreground`         |
+| `primary`     | Primary action color and its contrasting text | `bg-primary`, `text-primary-foreground`         |
+| `secondary`   | Secondary action color and text               | `bg-secondary`, `text-secondary-foreground`     |
+| `muted`       | Muted/disabled states and subtle text         | `bg-muted`, `text-muted-foreground`             |
+| `accent`      | Accent highlights and their text              | `bg-accent`, `text-accent-foreground`           |
+| `destructive` | Destructive actions (delete, error) and text  | `bg-destructive`, `text-destructive-foreground` |
+| `border`      | Border color for dividers and outlines        | `border-border`                                 |
+| `input`       | Input field borders                           | `border-input`                                  |
+| `ring`        | Focus ring color for accessibility            | `ring-ring`                                     |
+
+
+## Sources
+
+- [**shadcn-svelte**](https://shadcn-svelte.com/themes) — main color palette located in `/src/theme.css`
+- [**Inter**](https://rsms.me/inter/) — main UI font located in `/static/fonts`

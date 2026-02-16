@@ -1,6 +1,6 @@
 # [TerpCourse](https://terpcourse.vercel.app/)
 
-TerpCourse is a course search tool built for students at UMD that accepts compact multi‑query strings to help students narrow down their search to find the courses. built to help students plan their schedules and make informed decisions about their course and section selections.
+TerpCourse is a course search tool built for students at UMD that accepts compact multi‑query strings to help students narrow down their search to find the courses. Built to help students plan their schedules and make informed decisions about their course and section selections.
 
 
 ## File Structure
@@ -10,8 +10,7 @@ terpcourse/
 ├── src/
 │   ├── lib/
 │   │   ├── components/     # Reusable Svelte components and UI elements
-│   │   ├── utils/          # Utility functions and helpers
-│   │   └── types/          # TypeScript type definitions
+│   │   └── utils/          # Utility functions and helpers
 │   ├── routes/             # SvelteKit pages and API routes
 │   ├── app.html            # HTML template
 │   ├── app.css             # Global styles

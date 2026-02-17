@@ -1,9 +1,13 @@
 <script lang="ts">
 	import '../app.css';
-	let { children } = $props();
+
+	import NavBar from '../lib/components/layout/NavBar.svelte';
 </script>
 
 <svelte:head>
 	<title>TerpCourse</title>
 </svelte:head>
-{@render children()}
+
+<NavBar />
+
+<slot />

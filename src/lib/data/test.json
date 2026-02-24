@@ -1,0 +1,1203 @@
+[
+    {
+        "course_code": "CMSC131",
+        "name": "Object-Oriented Programming I",
+        "min_credits": 4,
+        "max_credits": null,
+        "gen_eds": null,
+        "conditions": [
+            "Corequisite: MATH140. ",
+            "Credit only granted for: CMSC131, CMSC133 or CMSC141."
+        ],
+        "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.",
+        "sections": [
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-IRB-0324",
+                    "MW-11:00am-11:50am-CSI-2120"
+                ],
+                "sec_code": "0101",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Elias Gonzalez"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-IRB-0324",
+                    "MW-11:00am-11:50am-CSI-2118"
+                ],
+                "sec_code": "0102",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Elias Gonzalez"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-IRB-0324",
+                    "MW-12:00pm-12:50pm-CSI-2120"
+                ],
+                "sec_code": "0103",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Elias Gonzalez"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-IRB-0324",
+                    "MW-12:00pm-12:50pm-CSI-2118"
+                ],
+                "sec_code": "0104",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Elias Gonzalez"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-2:00pm-2:50pm-CSI-2118"
+                ],
+                "sec_code": "0201",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-2:00pm-2:50pm-CSI-3118"
+                ],
+                "sec_code": "0202",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-3:00pm-3:50pm-CSI-2118"
+                ],
+                "sec_code": "0203",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-3:00pm-3:50pm-CSI-3118"
+                ],
+                "sec_code": "0204",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-4:00pm-4:50pm-CSI-2118"
+                ],
+                "sec_code": "0205",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-IRB-0324",
+                    "MW-2:00pm-2:50pm-CSI-1121"
+                ],
+                "sec_code": "0206",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Nora Burkhauser"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-IRB-0324",
+                    "TuTh-9:30am-10:20am-CSI-2120"
+                ],
+                "sec_code": "0301",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-IRB-0324",
+                    "TuTh-9:30am-10:20am-CSI-2118"
+                ],
+                "sec_code": "0302",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-IRB-0324",
+                    "TuTh-11:00am-11:50am-CSI-2107"
+                ],
+                "sec_code": "0303",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-IRB-0324",
+                    "TuTh-11:00am-11:50am-CSI-2118"
+                ],
+                "sec_code": "0304",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-IRB-0324",
+                    "TuTh-12:30pm-1:20pm-CSI-2107"
+                ],
+                "sec_code": "0305",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-IRB-0324",
+                    "TuTh-9:30am-10:20am-CSI-3118"
+                ],
+                "sec_code": "0401",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-IRB-0324",
+                    "TuTh-8:00am-8:50am-CSI-2120"
+                ],
+                "sec_code": "0402",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-IRB-0324",
+                    "TuTh-2:00pm-2:50pm-CSI-2118"
+                ],
+                "sec_code": "0404",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-IRB-0324",
+                    "TuTh-11:00am-11:50am-CSI-3118"
+                ],
+                "sec_code": "0405",
+                "waitlist": 0,
+                "open_seats": 32,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Pedram Sadeghian"
+                ],
+                "total_seats": 32
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "TuTh-6:00pm-7:15pm-CSI-1115",
+                    "MW-6:00pm-6:50pm-CSI-3118"
+                ],
+                "sec_code": "FC01",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Instructor: TBA"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "TuTh-6:00pm-7:15pm-CSI-1115",
+                    "MW-6:00pm-6:50pm-CSI-3120"
+                ],
+                "sec_code": "FC02",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Instructor: TBA"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "TuTh-6:00pm-7:15pm-CSI-1115",
+                    "MW-6:00pm-6:50pm-CSI-2118"
+                ],
+                "sec_code": "FC03",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Instructor: TBA"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "TuTh-6:00pm-7:15pm-CSI-1115",
+                    "MW-6:00pm-6:50pm-CSI-2120"
+                ],
+                "sec_code": "FC04",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "CMSC131",
+                "instructors": [
+                    "Instructor: TBA"
+                ],
+                "total_seats": 24
+            }
+        ]
+    },
+    {
+        "course_code": "MATH140",
+        "name": "Calculus I",
+        "min_credits": 4,
+        "max_credits": null,
+        "gen_eds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "conditions": [
+            "Prerequisite: Minimum grade of C- in MATH115; or must have math eligibility of MATH140; and math eligibility is based on the Math Placement Test."
+        ],
+        "description": "Introduction to calculus, including functions, limits, continuity, derivatives and applications of the derivative, sketching of graphs of functions, definite and indefinite integrals, and calculation of area. The course is especially recommended for science, engineering and mathematics majors.",
+        "sections": [
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-HJP-0226",
+                    "TuTh-8:00am-9:15am-MTH-0101"
+                ],
+                "sec_code": "0111",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Matthew Wilson"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-HJP-0226",
+                    "TuTh-8:00am-9:15am-MTH-0407"
+                ],
+                "sec_code": "0113",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Matthew Wilson"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-HJP-0226",
+                    "TuTh-9:30am-10:45am-MTH-0101"
+                ],
+                "sec_code": "0121",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Matthew Wilson"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-HJP-0226",
+                    "TuTh-9:30am-10:45am-MTH-0407"
+                ],
+                "sec_code": "0123",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Matthew Wilson"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-HJP-0226",
+                    "TuTh-11:00am-12:15pm-MTH-0101"
+                ],
+                "sec_code": "0131",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Matthew Wilson"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-ARM-0126",
+                    "TuTh-9:30am-10:45am-MTH-0102"
+                ],
+                "sec_code": "0211",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Amin Gholampour"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-ARM-0126",
+                    "TuTh-9:30am-10:45am-MTH-0302"
+                ],
+                "sec_code": "0213",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Amin Gholampour"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-ARM-0126",
+                    "TuTh-11:00am-12:15pm-MTH-0102"
+                ],
+                "sec_code": "0221",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Amin Gholampour"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-ARM-0126",
+                    "TuTh-11:00am-12:15pm-MTH-0302"
+                ],
+                "sec_code": "0223",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Amin Gholampour"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-10:00am-10:50am-ARM-0126",
+                    "TuTh-2:00pm-3:15pm-MTH-0102"
+                ],
+                "sec_code": "0231",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Amin Gholampour"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-HJP-0226",
+                    "TuTh-12:30pm-1:45pm-ESJ-0215"
+                ],
+                "sec_code": "0311",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "James Conway"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-HJP-0226",
+                    "TuTh-12:30pm-1:45pm-ESJ-0215"
+                ],
+                "sec_code": "0313",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "James Conway"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-HJP-0226",
+                    "TuTh-2:00pm-3:15pm-ESJ-0215"
+                ],
+                "sec_code": "0321",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "James Conway"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-HJP-0226",
+                    "TuTh-2:00pm-3:15pm-ESJ-0215"
+                ],
+                "sec_code": "0323",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "James Conway"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-12:00pm-12:50pm-HJP-0226",
+                    "TuTh-3:30pm-4:45pm-ESJ-0215"
+                ],
+                "sec_code": "0331",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH140",
+                "instructors": [
+                    "James Conway"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0135",
+                    "TuTh-8:00am-9:15am-ESJ-1215"
+                ],
+                "sec_code": "0411",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0135",
+                    "TuTh-9:30am-10:45am-MMH-0100"
+                ],
+                "sec_code": "0421",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0135",
+                    "TuTh-9:30am-10:45am-MMH-0100"
+                ],
+                "sec_code": "0423",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0135",
+                    "TuTh-12:30pm-1:45pm-ESJ-1215"
+                ],
+                "sec_code": "0431",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0135",
+                    "TuTh-12:30pm-1:45pm-ESJ-1215"
+                ],
+                "sec_code": "0433",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-2:00pm-2:50pm-ARM-0135",
+                    "TuTh-8:00am-9:15am-MTH-B0421"
+                ],
+                "sec_code": "0511",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-2:00pm-2:50pm-ARM-0135",
+                    "TuTh-8:00am-9:15am-MTH-B0425"
+                ],
+                "sec_code": "0513",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-2:00pm-2:50pm-ARM-0135",
+                    "TuTh-9:30am-10:45am-MTH-B0421"
+                ],
+                "sec_code": "0521",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-2:00pm-2:50pm-ARM-0135",
+                    "TuTh-9:30am-10:45am-MTH-B0425"
+                ],
+                "sec_code": "0523",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-2:00pm-2:50pm-ARM-0135",
+                    "TuTh-11:00am-12:15pm-MTH-B0421"
+                ],
+                "sec_code": "0531",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Steven Chadwick"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-3:00pm-4:15pm-SHM-2102",
+                    "F-9:30am-10:45am-MTH-0307"
+                ],
+                "sec_code": "FC01",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Arnaja Mitra"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-3:00pm-4:15pm-SHM-2102",
+                    "F-11:00am-12:15pm-MTH-0307"
+                ],
+                "sec_code": "FC02",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Arnaja Mitra"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-3:00pm-4:15pm-SHM-2102",
+                    "F-1:00pm-2:15pm-MTH-0307"
+                ],
+                "sec_code": "FC03",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Arnaja Mitra"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-3:00pm-4:15pm-SHM-2102",
+                    "F-2:30pm-3:45pm-MTH-0307"
+                ],
+                "sec_code": "FC04",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Arnaja Mitra"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-4:30pm-5:45pm-SHM-2102",
+                    "F-9:30am-10:45am-MTH-B0423"
+                ],
+                "sec_code": "FC07",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Craig Schlenoff"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-4:30pm-5:45pm-SHM-2102",
+                    "F-11:00am-12:15pm-PHY-1219"
+                ],
+                "sec_code": "FC08",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Craig Schlenoff"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-4:30pm-5:45pm-SHM-2102",
+                    "F-1:00pm-2:15pm-MTH-0403"
+                ],
+                "sec_code": "FC09",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Craig Schlenoff"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWTh-4:30pm-5:45pm-SHM-2102",
+                    "F-2:30pm-3:45pm-MTH-0403"
+                ],
+                "sec_code": "FC10",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH140",
+                "instructors": [
+                    "Craig Schlenoff"
+                ],
+                "total_seats": 24
+            }
+        ]
+    },
+    {
+        "course_code": "MATH141",
+        "name": "Calculus II",
+        "min_credits": 4,
+        "max_credits": null,
+        "gen_eds": null,
+        "conditions": [
+            "Prerequisite: Minimum grade of C- in MATH140."
+        ],
+        "description": "Continuation of MATH140, including techniques of integration, improper integrals, applications of integration (such as volumes, work, arc length, moments), inverse functions, exponential and logarithmic functions, sequences and series.",
+        "sections": [
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-ARM-0126",
+                    "TuTh-8:00am-8:50am-MTH-0306"
+                ],
+                "sec_code": "0111",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-ARM-0126",
+                    "TuTh-9:00am-9:50am-MTH-0306"
+                ],
+                "sec_code": "0121",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-ARM-0126",
+                    "TuTh-10:00am-10:50am-MTH-0306"
+                ],
+                "sec_code": "0131",
+                "waitlist": 0,
+                "open_seats": 26,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 26
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-9:00am-9:50am-ARM-0126",
+                    "TuTh-11:00am-11:50am-MTH-0306"
+                ],
+                "sec_code": "0141",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-ARM-0135",
+                    "TuTh-8:00am-8:50am-MTH-B0423"
+                ],
+                "sec_code": "0211",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-ARM-0135",
+                    "TuTh-9:00am-9:50am-MTH-B0423"
+                ],
+                "sec_code": "0221",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-ARM-0135",
+                    "TuTh-10:00am-10:50am-MTH-B0423"
+                ],
+                "sec_code": "0231",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-ARM-0135",
+                    "TuTh-11:00am-11:50am-MTH-B0423"
+                ],
+                "sec_code": "0241",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-11:00am-11:50am-ARM-0135",
+                    "TuTh-11:00am-11:50am-MTH-B0427"
+                ],
+                "sec_code": "0242",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Shin Song"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0131",
+                    "TuTh-12:00pm-12:50pm-MTH-B0425"
+                ],
+                "sec_code": "0311",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0131",
+                    "TuTh-1:00pm-1:50pm-MTH-B0425"
+                ],
+                "sec_code": "0321",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0131",
+                    "TuTh-2:00pm-2:50pm-MTH-B0425"
+                ],
+                "sec_code": "0331",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-1:00pm-1:50pm-ARM-0131",
+                    "TuTh-3:00pm-3:50pm-MTH-B0425"
+                ],
+                "sec_code": "0341",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-3:00pm-3:50pm-ESJ-0224",
+                    "TuTh-12:00pm-12:50pm-MTH-0201"
+                ],
+                "sec_code": "0411",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Jonathan Fernandes"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-3:00pm-3:50pm-ESJ-0224",
+                    "TuTh-1:00pm-1:50pm-MTH-0201"
+                ],
+                "sec_code": "0421",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Jonathan Fernandes"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-3:00pm-3:50pm-ESJ-0224",
+                    "TuTh-1:00pm-1:50pm-MTH-B0423"
+                ],
+                "sec_code": "0422",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Jonathan Fernandes"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-3:00pm-3:50pm-ESJ-0224",
+                    "TuTh-2:00pm-2:50pm-MTH-0201"
+                ],
+                "sec_code": "0431",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Jonathan Fernandes"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MWF-3:00pm-3:50pm-ESJ-0224",
+                    "TuTh-3:00pm-3:50pm-MTH-0201"
+                ],
+                "sec_code": "0441",
+                "waitlist": 0,
+                "open_seats": 27,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Jonathan Fernandes"
+                ],
+                "total_seats": 27
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MW-3:00pm-4:15pm-SYM-0200",
+                    "Th-3:00pm-3:50pm-CHM-1402",
+                    "F-11:00am-11:50am-MTH-0405"
+                ],
+                "sec_code": "FC02",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MW-3:00pm-4:15pm-SYM-0200",
+                    "Th-3:00pm-3:50pm-CHM-1402",
+                    "F-1:00pm-1:50pm-MTH-0405"
+                ],
+                "sec_code": "FC03",
+                "waitlist": 0,
+                "open_seats": 24,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Ariel Rosenfield"
+                ],
+                "total_seats": 24
+            },
+            {
+                "holdfile": null,
+                "meetings": [
+                    "MW-4:30pm-5:45pm-PHY-TBA",
+                    "Th-TBA-TBA-PHY-2122",
+                    "OnlineAsync"
+                ],
+                "sec_code": "FC04",
+                "waitlist": 0,
+                "open_seats": 30,
+                "course_code": "MATH141",
+                "instructors": [
+                    "Instructor: TBA"
+                ],
+                "total_seats": 30
+            }
+        ]
+    }
+]

@@ -32,16 +32,16 @@ function parseDays(raw: string): CourseTime['days'] {
 
 	while (i < raw.length) {
 		if (raw[i] === 'T') {
-            if (raw[i + 1] === 'u') {
-                days.push('Tu' as CourseDay);
-                i += 2;
-            } else if (raw[i + 1] === 'h') {
-                days.push('Th' as CourseDay);
-                i += 2;
-            } else {
-                console.warn(`Unexpected character after 'T' in days string: ${raw[i + 1]}`);
-                i += 1;
-            }
+			if (raw[i + 1] === 'u') {
+				days.push('Tu' as CourseDay);
+				i += 2;
+			} else if (raw[i + 1] === 'h') {
+				days.push('Th' as CourseDay);
+				i += 2;
+			} else {
+				console.warn(`Unexpected character after 'T' in days string: ${raw[i + 1]}`);
+				i += 1;
+			}
 		} else if (raw[i] === 'M') {
 			days.push('M' as CourseDay);
 			i += 1;
@@ -103,12 +103,18 @@ function parseMeeting(meeting: string): CourseTime {
 }
 
 export function formatTimeFromNumber(time: number): string {
-    if (time < 0) return 'TBA';
-    const hour = Math.floor(time);
-    const minute = Math.round((time - hour) * 60);
-    const meridiem = hour >= 12 ? 'pm' : 'am';
-    const displayHour = hour % 12 === 0 ? 12 : hour % 12;
-    return `${displayHour}:${minute.toString().padStart(2, '0')}${meridiem}`;
+	if (time < 0) return 'TBA';
+	const hour = Math.floor(time);
+	const minute = Math.round((time - hour) * 60);
+	const meridiem = hour >= 12 ? 'pm' : 'am';
+	const displayHour = hour % 12 === 0 ? 12 : hour % 12;
+	return `${displayHour}:${minute.toString().padStart(2, '0')}${meridiem}`;
+}
+
+function parseCondition(condition: string): [string, string] {
+	const splitAt = condition.indexOf(':');
+	if (splitAt === -1) return [condition.trim(), ''];
+	return [condition.slice(0, splitAt).trim(), condition.slice(splitAt + 1).trim()];
 }
 
 export function normalizeCourses(raw: RawCourse[]): Course[] {
@@ -118,7 +124,7 @@ export function normalizeCourses(raw: RawCourse[]): Course[] {
 		min_credits: course.min_credits,
 		max_credits: course.max_credits,
 		gen_eds: course.gen_eds,
-		conditions: course.conditions ?? [],
+		conditions: (course.conditions ?? []).map(parseCondition),
 		description: course.description ?? '',
 		sections: (course.sections ?? []).map((section) => ({
 			holdfile: section.holdfile == null ? null : String(section.holdfile),

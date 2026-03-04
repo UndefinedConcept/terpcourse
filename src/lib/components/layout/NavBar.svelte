@@ -16,14 +16,14 @@
 </script>
 
 <nav
-	class="mx-auto flex items-center justify-between border-y-2 border-t-transparent border-b-border bg-background px-4 py-2 text-foreground"
+	class="static mx-auto flex items-center justify-between border-y-2 border-t-transparent border-b-border bg-background px-4 py-2 text-foreground"
 >
 	<a class="text-xl font-bold text-primary" href="/"> TerpCourse </a>
 
 	<input type="checkbox" id="hamburger-menu" class="peer hidden" bind:checked={isChecked} />
 	<label
 		for="hamburger-menu"
-		class="static top-3 right-4 z-10 h-6 w-6 cursor-pointer peer-checked:hidden md:hidden hover:text-primary"
+		class="static top-3 right-4 h-6 w-6 cursor-pointer hover:text-primary md:hidden"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 			><path
@@ -34,7 +34,7 @@
 	</label>
 	<label
 		for="hamburger-menu"
-		class="static top-3 right-4 z-10 hidden h-6 w-6 cursor-pointer max-md:peer-checked:block md:hidden hover:text-primary"
+		class="pointer-events-none fixed top-3 right-4 z-20 h-6 w-6 cursor-pointer opacity-0 transition-opacity duration-300 peer-checked:pointer-events-auto hover:text-primary max-md:peer-checked:opacity-100 md:hidden"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 			><path
@@ -45,17 +45,22 @@
 	</label>
 	<label
 		for="hamburger-menu"
-		class="fixed inset-0 top-12 hidden h-full w-full bg-sidebar opacity-0 transition-opacity duration-700 max-md:peer-checked:block max-md:peer-checked:opacity-50 md:hidden"
+		class="pointer-events-none fixed inset-0 z-10 h-full w-full bg-sidebar opacity-0 transition-opacity duration-300 peer-checked:pointer-events-auto peer-checked:opacity-50 md:hidden"
 	>
 	</label>
 	<div
-		class="no-scrollbar overflow-y-scroll transition-transform duration-300 max-md:fixed max-md:top-0 max-md:-right-64 max-md:bottom-0 max-md:w-64 max-md:flex-col max-md:gap-6 max-md:border-l-2 max-md:border-border max-md:bg-background max-md:peer-checked:-translate-x-64"
+		class="z-15 no-scrollbar overflow-y-scroll transition-transform duration-300 max-md:fixed max-md:top-0 max-md:-right-64 max-md:bottom-0 max-md:w-64 max-md:flex-col max-md:gap-6 max-md:border-l-2 max-md:border-border max-md:bg-background max-md:peer-checked:-translate-x-64"
 	>
 		<ul
 			class="flex items-center gap-8 font-semibold max-md:relative max-md:top-10 max-md:flex-col max-md:gap-8 max-md:text-xl max-md:font-bold"
 		>
 			{#each Pages as { name, href, title }}
-				<a {href} onclick={() => (isChecked = false)} {title} class="block w-full text-center transition-colors duration-300 hover:text-primary">
+				<a
+					{href}
+					onclick={() => (isChecked = false)}
+					{title}
+					class="block w-full text-center transition-colors duration-300 hover:text-primary"
+				>
 					<li
 						class="inline border-b-2 border-transparent [&.active]:border-primary/60"
 						class:active={page.url.pathname == href}

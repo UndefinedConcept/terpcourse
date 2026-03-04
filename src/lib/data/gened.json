@@ -1,0 +1,13 @@
+[
+{"gened_code": "FSAW", "name": "Academic Writing"},
+{"gened_code": "FSPW", "name": "Professional Writing"},
+{"gened_code": "FSOC", "name": "Oral Communication"},
+{"gened_code": "DSNL", "name": "Natural Science with Lab"},
+{"gened_code": "DSNS", "name": "Natural Science"},
+{"gened_code": "DSHS", "name": "History and Social Sciences"},
+{"gened_code": "DSHU", "name": "Humanities"},
+{"gened_code": "DSSP", "name": "Scholarship in Practice"},
+{"gened_code": "ISIS", "name": "Big Question"},
+{"gened_code": "DVUP", "name": "Understanding Plural Societies"},
+{"gened_code": "DVCC", "name": "Cultural Competence"}
+]

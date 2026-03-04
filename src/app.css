@@ -82,6 +82,12 @@ Global Base Layer ==============================================
 	button:active {
 		@apply opacity-60 md:opacity-100;
 	}
+
+	input:-webkit-autofill {
+		-webkit-box-shadow: 0 0 0 0 transparent inset; /* Overrides yellow bg */
+		box-shadow: 0 0 0px 1000px var(--background) inset;
+		-webkit-text-fill-color: var(--foreground); /* Sets text color */
+	}
 }
 
 @utility no-scrollbar {
@@ -90,5 +96,21 @@ Global Base Layer ==============================================
 
 	&::-webkit-scrollbar {
 		display: none;
+	}
+}
+
+@utility scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: var(--muted) transparent;
+	scrollbar-gutter: stable;
+
+	&::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--muted);
+		border-radius: 4px;
 	}
 }

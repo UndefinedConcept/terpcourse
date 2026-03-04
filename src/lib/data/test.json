@@ -1143,7 +1143,7 @@
                 ],
                 "sec_code": "0441",
                 "waitlist": 0,
-                "open_seats": 27,
+                "open_seats": 0,
                 "course_code": "MATH141",
                 "instructors": [
                     "Jonathan Fernandes"
@@ -1159,7 +1159,7 @@
                 ],
                 "sec_code": "FC02",
                 "waitlist": 0,
-                "open_seats": 24,
+                "open_seats": 0,
                 "course_code": "MATH141",
                 "instructors": [
                     "Ariel Rosenfield"
@@ -1175,7 +1175,7 @@
                 ],
                 "sec_code": "FC03",
                 "waitlist": 0,
-                "open_seats": 24,
+                "open_seats": 0,
                 "course_code": "MATH141",
                 "instructors": [
                     "Ariel Rosenfield"

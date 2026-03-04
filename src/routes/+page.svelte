@@ -1,66 +1,18 @@
 <script>
-	import { normalizeCourses, formatTimeFromNumber } from '$lib/utils/courses';
-
-    import testData from '$lib/data/test.json';
-	let courses = normalizeCourses(testData);
+	import Search from '$lib/components/search/Search.svelte';
+	import Results from '$lib/components/search/Results.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<p>Here are some courses:</p>
-<div class="courses-container">
-	{#each courses as course (course.course_code)}
-		<article class="course">
-			<header>
-				<h2>{course.name}</h2>
-				<span class="course-code">{course.course_code}</span>
-			</header>
-			<details>
-				<summary>Show more details</summary>
-				<p>{course.description}</p>
-			</details>
-			<section class="sections">
-				<h3>Sections</h3>
-				<ul>
-					{#each course.sections as section (section.sec_code)}
-						<li class="section">
-							<strong>{section.sec_code}</strong>
-							<time>
-                                {#each section.meetings as meeting}
-                                    <div>
-                                        {meeting.days.join('')}: {formatTimeFromNumber(meeting.start_time)} - {formatTimeFromNumber(meeting.end_time)} at 
-                                        {#if meeting.location.building !== 'ONLINE'}
-                                        <a href="https://maps.terpmail.umd.edu/?building={meeting.location.building}">{meeting.location.building} {meeting.location.room}</a>
-                                        {:else}
-                                        <span>ONLINE</span>
-                                        {/if}
-                                    </div>
-                                {/each}
-                            </time>
-						</li>
-					{/each}
-				</ul>
-			</section>
-		</article>
-	{/each}
-</div>
-
-<style>
-	.courses-container {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-	.course {
-		border: 1px solid #ccc;
-		padding: 1rem;
-		border-radius: 0.5rem;
-	}
-	.course-code {
-		font-size: 0.875rem;
-		color: #666;
-	}
-	.sections {
-		margin-top: 1rem;
-	}
-</style>
+<main class="flex flex-col gap-1 px-4 md:grid md:grid-cols-[22rem_1fr]">
+	<section class="order-1 min-h-80 py-2 max-md:h-[50vh] md:order-2 md:h-[calc(100vh-3rem)]">
+		<div class="flex h-full items-center justify-center rounded-lg bg-secondary">
+			<p class="text-6xl font-bold">Schedule</p>
+		</div>
+	</section>
+	<section
+		class="order-2 scrollbar min-h-80 overflow-y-scroll pr-1 max-md:h-screen md:order-1 md:h-[calc(100vh-3rem)]"
+	>
+		<Search />
+		<Results />
+	</section>
+</main>

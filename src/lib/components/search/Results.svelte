@@ -9,6 +9,21 @@
 		'https://app.testudo.umd.edu/soc/search?sectionId=&_openSectionsOnly=on&creditCompare=%3E%3D&credits=0.0&courseLevelFilter=ALL&instructor=&_facetoface=on&_blended=on&_online=on&courseStartCompare=&courseStartHour=&courseStartMin=&courseStartAM=&courseEndHour=&courseEndMin=&courseEndAM=&teachingCenter=ALL&_classDay1=on&_classDay2=on&_classDay3=on&_classDay4=on&_classDay5=on&courseId=';
 	const courseEndUrl = '&termId=202608'; // TODO: make this dynamic based on current term
 	const planetTerpBaseUrl = 'https://planetterp.com/search?query=';
+
+	function handleSectionClick(courseCode: string, sectionCode: string) {
+		console.log('Section clicked:', { course: courseCode, section: sectionCode });
+
+		const scheduleElement = document.getElementById('schedule');
+		if (!scheduleElement) {
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+			return;
+		}
+
+		scheduleElement.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
+	}
 </script>
 
 <div>
@@ -53,47 +68,60 @@
 			<!-- Sections: TODO -->
 			<ul>
 				{#each course.sections as section (section.sec_code)}
-					<li
-						class="flex flex-row gap-2 border-t-2 border-border p-2 hover:cursor-pointer hover:bg-sidebar"
-					>
-						<strong>{section.sec_code}</strong>
-						<div class="grow">
-							<a
-								class="mb-1 text-primary hover:underline"
-								href="{planetTerpBaseUrl}{section.instructors}"
-								title="View Instructor on Planet Terp"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								{section.instructors}
-							</a>
-							<time class="w-full">
-								{#each section.meetings as meeting}
-									<div class="flex items-baseline justify-between">
-										<div>
-											{meeting.days.join('')}
-											{formatTimeFromNumber(meeting.start_time)} -
-											{formatTimeFromNumber(meeting.end_time)}
+					<li class="border-t-2 border-border">
+						<div
+							class="flex flex-row gap-2 p-2 hover:cursor-pointer hover:bg-sidebar focus:bg-sidebar"
+							role="button"
+							tabindex="0"
+							onclick={() => handleSectionClick(course.course_code, section.sec_code)}
+							onkeydown={(event) => {
+								if (event.key === 'Enter' || event.key === ' ') {
+									event.preventDefault();
+									handleSectionClick(course.course_code, section.sec_code);
+								}
+							}}
+						>
+							<strong>{section.sec_code}</strong>
+							<div class="grow">
+								<a
+									class="mb-1 text-primary hover:underline"
+									href="{planetTerpBaseUrl}{section.instructors}"
+									title="View Instructor on Planet Terp"
+									target="_blank"
+									rel="noopener noreferrer"
+									onclick={(event) => event.stopPropagation()}
+								>
+									{section.instructors}
+								</a>
+								<time class="w-full">
+									{#each section.meetings as meeting}
+										<div class="flex items-baseline justify-between">
+											<div>
+												{meeting.days.join('')}
+												{formatTimeFromNumber(meeting.start_time)} -
+												{formatTimeFromNumber(meeting.end_time)}
+											</div>
+											<div>
+												{#if meeting.location.building !== 'ONLINE'}
+													<a
+														class="text-primary hover:underline"
+														href="{mapviewBaseUrl}{meeting.location.building}"
+														title="View Location on UMD Maps"
+														target="_blank"
+														rel="noopener noreferrer"
+														onclick={(event) => event.stopPropagation()}
+													>
+														{meeting.location.building}
+														{meeting.location.room}
+													</a>
+												{:else}
+													ONLINE
+												{/if}
+											</div>
 										</div>
-										<div>
-											{#if meeting.location.building !== 'ONLINE'}
-												<a
-													class="text-primary hover:underline"
-													href="{mapviewBaseUrl}{meeting.location.building}"
-													title="View Location on UMD Maps"
-													target="_blank"
-													rel="noopener noreferrer"
-												>
-													{meeting.location.building}
-													{meeting.location.room}
-												</a>
-											{:else}
-												ONLINE
-											{/if}
-										</div>
-									</div>
-								{/each}
-							</time>
+									{/each}
+								</time>
+							</div>
 						</div>
 					</li>
 				{/each}

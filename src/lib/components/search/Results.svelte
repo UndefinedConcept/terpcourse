@@ -1,6 +1,8 @@
 <script lang="ts">
 	import data from '$lib/data/test.json';
 	import { normalizeCourses, formatTimeFromNumber } from '$lib/utils/courses';
+	import LinkArrow from './LinkArrow.svelte';
+	import Stars from './Stars.svelte';
 
 	const courses = normalizeCourses(data);
 	const mapviewBaseUrl =
@@ -29,7 +31,7 @@
 <div>
 	{#each courses as course}
 		<article class="my-2 rounded-md border-2 border-border text-card-foreground">
-			<div class="sticky top-0 border-y-2 border-border bg-sidebar p-2">
+			<div class="sticky top-0 border-y-2 border-border bg-sidebar p-2 z-1">
 				<header class="flex items-baseline justify-between">
 					<span class="font-bold">{course.course_code}</span>
 					<span>
@@ -43,7 +45,7 @@
 						{/if}
 					</span>
 				</header>
-				<a
+				<LinkArrow
 					class="text-primary hover:underline"
 					href="{courseBaseUrl}{course.course_code}{courseEndUrl}"
 					title="View Course on Testudo"
@@ -51,7 +53,7 @@
 					rel="noopener noreferrer"
 				>
 					<h3>{course.name}</h3>
-				</a>
+				</LinkArrow>
 				<details>
 					<summary class="hover:cursor-pointer">Show more details</summary>
 					<p>
@@ -92,6 +94,9 @@
 									onclick={(event) => event.stopPropagation()}
 								>
 									{section.instructors}
+									{#if section.instructors[0] == "Elias Gonzalez"}
+										<Stars rating={4.47} />
+									{/if}
 								</a>
 								<time class="w-full">
 									{#each section.meetings as meeting}

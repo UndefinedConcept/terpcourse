@@ -9,6 +9,7 @@
 		parseSearchInput,
 		type FilterSuggestion
 	} from '$lib/utils/search';
+	import LinkArrow from '$lib/components/search/LinkArrow.svelte';
 
 	let searchInput = '';
 	let searchInputEl: HTMLInputElement | null = null;
@@ -144,11 +145,11 @@
 	}
 </script>
 
-<div
-	class="relative"
->
+<div class="relative">
 	<div class="h-12"></div>
-	<div class="absolute top-2 z-10 rounded-lg border-2 border-border bg-sidebar focus-within:bg-secondary hover:bg-secondary w-full">
+	<div
+		class="absolute top-2 z-10 w-full rounded-lg border-2 border-border bg-sidebar focus-within:bg-secondary hover:bg-secondary"
+	>
 		<form onsubmit={handleSubmit} class="peer flex w-full flex-row-reverse py-2">
 			<input
 				id="search"
